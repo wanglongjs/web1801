@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.part .son
+		{
+			width: 50px;
+			height: 60px;
+			border: solid 1px red;
+		}
+
+		#seconder+ .son{
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="one" style="width: 500px; height: 40px; background-color: #A77575"></div>
+	<span style="width: 40px;height: 100px;background-color: #B9C6E9"></span>
+
+
+	<div class="part">
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+		<div class="son"></div>
+
+
+	</div>
+
+<div class="partn">
+	
+	<div class="son">
+		<div class="grader">
+			<div class="son"></div>
+		</div>
+	</div>
+
+	<div class="son" id="seconder">son</div>
+
+	<div class="son" id="seconder">son</div>
+</div>
+
+</body>
+</html>

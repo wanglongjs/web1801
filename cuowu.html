@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<!-- 	<script type="text/javascript">
+		var txt="";
+		function cuowu()
+		{
+			try{
+				adddlert("welcome gust");
+			}
+			catch(err)
+			{
+				txt="本页面有错误。\n\n"
+				txt+="错误处理"+err.cuowu+"nn";
+				txt+="点击确定继续.\n\n";
+				alert(txt);
+			}
+
+		}
+	</script>
+	<input type="button" name="" onclick="cuowu()"> -->
+	<script type="text/javascript">
+		function MyFunction1()
+		{
+			try{
+			var x=document.getElementById("demo").value;
+			if(x=="") throw "数值为空";
+			if(isNaN(x)) throw "不是数字";//nan判定某个值是否超过表示范围
+			if(x<5)	throw "数字太小";
+			if(x>10)	throw "数字太大";
+
+		}
+		catch(err)
+		{
+			var y=document.getElementById("mess");
+			y.innerHTML="错误:"+err+"。";
+			console.log(err.stack);
+			alert(x);
+		}
+		}
+	</script>
+	<p>请输入5-10之间的数</p>
+	<input type="text" id="demo">
+	<button onclick="MyFunction1()" type="button">测试</button>
+	<p id="mess"></p>
+
+	<script type="text/javascript">
+		eval("x=10;y=20;document.write(x*y)";)// eval函数计算javascript中的字符串 如果eval是表达式将执行表达式 如果是语句将执行语句
+		document.write("<br>"+eval("2+2"));
+		document.write("<br>"+eval("x*27"));
+		
+	</script>
+</body>
+</html>

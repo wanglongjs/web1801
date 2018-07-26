@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="#">
+		<progress style="height: 5px" max="100" value="10" id="demo"></progress>
+	</form>
+	<p id="demo1"></p>
+
+	<script type="text/javascript">
+		//当页面加载成功之后执function中的代码
+		window.onload=function(){
+			//每过100毫秒时候执行fuction中的代码
+			setInterval(function(){
+				document.getElementById("demo").value++
+
+				if(document.getElementById("demo").value<=100)
+				{
+					document.getElementById("demo").value++
+					if (100) {document.getElementById("demo1").innerHTML="加载成功"}
+					// document.getElementById("demo").innerHTML="加载成功"
+				}else
+				{
+					document.getElementById("demo").value=0
+				}
+
+				if(document.getElementById("demo").value===100)
+				{
+					document.getElementById("demo1").innerHTML="加载成功"
+
+				}else
+				{
+					document.getElementById("demo1").innerHTML="请重新加载"
+				}
+
+			},100)
+			//后去progrees标签的value值
+			// document.getElementById("demo").value
+		}
+	</script>
+
+	<form action="" oninput="sum.value=parseInt(a.value)+parseInt(b.value)">
+		<input type="text" name="a" value="2">
+		+
+		<input type="text" name="b" value="3">
+		=
+		<output  name="sum" value="5">5</output>
+	</form>
+
+
+</body>
+</html>

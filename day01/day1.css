@@ -1,0 +1,163 @@
+body{
+top: 0px;
+right: 0px;
+left: 0px;
+margin:0;
+padding: 0;
+bottom: 0;
+}
+img{
+height: 200px;
+width: 300px;
+}
+#a1{
+font-size: 1em;
+padding: 0px 0px;
+
+}
+
+.dingk{
+height: auto;
+width: 100%;
+
+background-color: #333;
+padding: 0px;
+
+
+}
+/*#logo
+{
+margin-left: 60%;
+float: right;
+height: 200px;
+width: 300px;
+}*/
+#dingk_1
+{
+height: auto;
+width: 200px;
+margin-left:50%;
+/*float精确子类div位置 有两个属性right left*/
+float: left;
+margin-right: 20px;*/
+padding: inherit;
+}
+#dingk_2{
+height: 30%;
+width: auto;
+display: inline;
+float: left;
+/*margin-left: 20px;*/
+/*padding: 20px 20px 10px 30px;*/
+/*padding: inherit;*/
+}
+
+a{
+font-weight:800;
+font-style: normal;
+font-size: 20px;
+text-decoration: none;
+/*margin-left: 20%;*/
+color:#FFF0F5;
+}
+
+
+p{
+font-size: 1.625em;
+font-weight: 40px;
+
+}
+hr{
+height: 5px;
+background-color: #333;	
+margin-top: 30%;
+}
+h1{
+font-weight: 20px;
+border:center;
+}
+h2{
+font-size:1.625em;
+}
+.zhong
+{
+margin-bottom:1.0242914979757085020242914979757%;
+margin-right: 2.0242914979757085020242914979757%;
+float:left;
+background-color:#F1D0FF; 
+}
+.zhong1{
+width: 100%;
+}
+#left{
+width: 100px;
+height: auto;
+margin-top:0.50242914979757085020242914979757%;
+margin-left: .0242914979757085020242914979757%;
+float:left;
+background-color: #333;
+/*margin-top:3px;*/
+}
+.left_1
+{
+margin:4.310344827586206896551724137931%;
+margin-left:5%;
+margin-top:0;
+padding:4.310344827586206896551724137931%;
+border-bottom:1px solid #e9e9e9;
+cursor:pointer;
+}	
+#video_1
+{	
+height: 800px;
+width: 100%;
+background-image: url(day01/img/h.jpg);
+
+}
+#video_2
+{
+height: 20%;
+width: 100%;
+background-image: url(day01/img/f.jpg);
+padding:0px 0px 0px 20px;
+}
+
+@media only screen and(max-width:500px)
+{
+
+/*	.dingk
+{
+width:100%;
+background-color: #fff;
+}*/
+.dingk_2
+{
+/*		height: auto;
+width: 100%;
+display: inline;
+float: left;*/
+}
+
+.left_1
+{
+margin:1.310344827586206896551724137931%;
+padding:4.310344827586206896551724137931%
+}
+.zhong{
+
+margin-right:20px;
+float:left;
+}
+#video_1
+{
+text-align: center;
+}
+#video_2
+{
+	height: 
+	width: 100%;
+	background-image: url(day01/img/f.jpg);
+}
+
+}
+

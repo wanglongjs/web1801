@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="name" id="myform" >
+	
+	</form>
+	<textarea name="content" id="myform1" cols="30" rows="10" form="myform"></textarea>
+	<!-- <button formaction="myform">122</button> -->
+
+
+	<script type="text/javascript">
+		
+		function Mytextarea()
+		{
+			var x=document.getElementById("myform1").form.id;
+			console.log(x);
+		}
+	</script>
+
+	<button onclick="Mytextarea()">提交</button>
+</body>
+</html>

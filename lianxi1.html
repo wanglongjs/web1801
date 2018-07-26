@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>onclick event example</title>
+	<script type="text/javascript">
+		function innaoHTML(){
+			var p=document.getElementById("foo");
+			p.onclick=showHTML;
+		};
+		function showHTML(event)
+		{
+			alert("onclick event datadfjfg");
+		}
+	</script>
+    <style>
+      #foo {
+        border: solid blue 2px;
+      }
+    </style>
+  </head>
+  <body onload="innaoHTML();">
+    <span id="foo">My Event Element</span>
+    <p>click on the above element.</p>
+
+    <script type="text/javascript">
+     cart=["1","2","3"];
+
+     for(i=0;i<=cart.length;i++)
+     {
+      document.write(cart[i]+"<br>");
+     }
+    </script>
+    <h2 id="dao"></h2>
+    <button onclick="myFunction2()">点击</button>
+    <script type="text/javascript">
+      function myFunction2()
+      {
+        var x="";
+        for(i=1;i<=5;i++)
+        {
+          var x=x+"请输入这个数字"+i+"<br>";
+        }
+        document.getElementById("dao").innerHTML=x;
+      }
+    </script>
+    <script type="text/javascript">
+      function vaidateFrome()
+      {
+        var x=document.forms["myForm"]["fame"]
+        if(x=null||x="")
+        {
+          alert("姓名必须填");
+          return false;
+        }
+      }
+
+    </script>
+    <form name="" action="" onsubmit="">
+      <input type="text" name="fname">
+      <input type="submit" name="" value="提交">
+    </form>
+    <p>FirstName:<span id="fname"></span></p>
+  <script type="text/javascript">
+    var empolay=[{"firstname":"janpn"},{"firstname":"pann"}];
+    empolay[1].firstname="jonatan";
+    document.getElementById("fname").innerHTML=empolay[1].firstname;
+  </script>
+  </body>
+</html>

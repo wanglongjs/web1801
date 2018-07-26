@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="#">
+		邮箱
+		<input type="email" name="email" placeholder="邮箱账号" required formnovalidate><br>
+		<input type="submit" value="点击提交">
+	</form>
+
+	<form action="">
+		<!-- required用于输入框字段提示   placehoder用于输入内容提示  pattern正则表达式判断输入 是否规则-->
+				邮箱
+		<input type="email" name="email" required placeholder="邮箱账号"><br>
+		<input type="submit" value="点击提交"  formtarget="_blank"><br>
+		手机号
+		<input type="tel" name="tel" pattern="[1][3,5,7,8][0-9]{9}" placeholder="请输入手机号" >
+		<input type="submit" value="点击提交">
+	</form>
+</body>
+</html>

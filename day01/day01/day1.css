@@ -1,0 +1,100 @@
+body{
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	margin:0;
+	padding: 0;
+	bottom: 0;
+}
+img{
+	height: 200px;
+	width: 300px;
+}
+#dingk{
+height: 30%;
+width: 100%;
+/*border:1px solid red;*/
+background-color: #333;
+padding: 0px;
+
+
+}
+#logo
+{
+	margin-left: 60%;
+	float: right;
+	height: 200px;
+	width: 300px;
+}
+#dingk_1
+{
+height: 30%;
+/*width: 200px;*/
+margin-left:50%;
+/*float精确子类div位置 有两个属性right left*/
+float: left; 
+}
+#dingk_2{
+height: 30px;
+width: auto;
+display: inline;
+float: left;
+}
+
+a{
+font-weight:800;
+font-style: normal;
+font-size: 20px;
+text-decoration: none;
+/*margin-left: 20%;*/
+color:#FFF0F5;
+}
+
+
+p{
+	font-weight: 40px;
+text-align: center;
+}
+hr{
+height: 5px;
+background-color: #333;	
+}
+h1{
+	font-weight: 20px;
+border:center;
+}
+#zhong
+{
+width: 100%;
+height: auto;
+background-color: #FFF0F5;
+
+
+}
+#left{
+height: 300px;
+width: 200px;
+background-color: #333;
+margin-top:3px;
+}
+.left_1
+{
+border:1px solid #fff;
+height: 48px;
+width: 200px;
+background-color: #333;
+}	
+#video_1
+{	
+height: 800px;
+width: 100%;
+background-image: url(./img/h.jpg);
+
+}
+#video_2
+{
+height: 700px;
+width: 100%;
+background-image: url(./img/f.jpg);
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>考生登录</h1>
+<fieldset>
+<legend>考生登录</legend>
+	<form action="">
+		真实姓名：<input type="text" name="真实姓名"><br>
+		证件类型：<select name="province" id="" >
+			<option value="身份证">身份证</option>
+		</select><br>
+		证件号码：<input onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" /><br>
+		报名序号：<input type="number" maxlength="10"><br>
+		<!-- 效验码：&nbsp;<input type="text" list=""  pattern="[A-Za-z0-7\w]{4}" required="required"><br> -->
+		效验码：
+		<input name="text" type="text" id="NewPage" onKeyUp="value=value.replace(/\D/g,'')" onchange="value=value.replace(/\D/g,'')" minlength="6" maxlength="10" />
+	
+		<input type="submit">
+		<button type="button">找回报名序号</button>
+	</form>
+
+</fieldset>
+</body>
+</html>

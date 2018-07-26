@@ -1,0 +1,62 @@
+块级元素
+p
+h1-h6
+ul li
+ol li
+table
+
+行内元素
+span
+sup
+sub
+i
+s
+a
+
+
+空元素
+
+img
+col
+代替元素
+img
+video
+audio
+2.html语法
+开始标签 结束标签 内容区域
+
+实体：
+
+
+3.	表单元素:收集用户信息
+form  属性 method :表示用那种方式提交 get post
+
+get
+day01/day02/2.form.simple.html?name=xinfangzhibo&password=qewdwfw#
+明文提交不安全
+限制大小为1024个字节
+
+post
+1.安全，非明文
+2.不限制数据大小
+
+
+action
+具体提交到那个页面处理
+
+input
+ text 单行文本
+ password 密码
+ name属性 
+ 提交过程中key值 表单数据必须的属性 否则无法提交
+
+
+
+
+注册 登录
+<input type="password" value="" name="password" >
+再提交的过程中出发key key=value
+
+value
+	1.type是radio的时候，value必须写
+	2.type是radio,checkbox的时候，value必须写

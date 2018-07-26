@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 正则表达式是简单的字符串描述匹配一系列复合语句的规则的字符串搜索模式  搜索模式可用于简单的文本搜索和文本替换 -->
+	<p id="dome"></p>
+	<button onclick="zhence()">点击</button>
+	<script type="text/javascript">
+		function zhence()
+		{
+			var str="vistr wanglong!"
+			var n=str.search(/wanglong/i);
+			document.getElementById("dome").innerHTML=n;
+		}
+	</script>
+	<!-- regExp对象是一个预定义了属性和方法的正则表达式对象 -->
+	<p id="host"></p>
+	<script type="text/javascript">
+		var pat=new RegExp("w")//
+		document.write(pat.test("whrosxnfk ksdfjkw")+"<br>");//test是一个正则表达式方法  test方法用于检测一个字符串是否匹配某个模式，如果字符串中含有匹配的文本，则返回true，
+
+		document.write(pat.exec("wsfkjiklkjlkf dkjfw"));//exec是一个正则表达是方法  exec方法是用于检索模式中是否有同一个模式如果有输出者模式否则输出null
+	</script>
+	<script type="text/javascript">
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		function funchanshu(a,b)
+		{
+			return a*b;
+
+		}
+		document.getElementById("demo").innerHTML=funchanshu(3,4);
+	</script>
+	<p id="demo1"></p>	
+	<script type="text/javascript">
+		var x=function(c,d){return c*d;}
+		document.getElmentById("demo1").innerHTML=x(3,4);
+<!-- 	</script>
+		<script type="text/javascript">
+			function maopao(arr)
+			{
+				var len=arr.length;
+				for(var i=0;i<len;i++)
+				{
+					for(var j=0;j<len;j++)
+					{
+						if(arr[j]>arr[j+1])
+						{
+
+							var temp;
+							temp=arr[j];
+							arr[j]=arr[j+1]
+							arr[j+1]=temp;
+						}
+					}
+				}
+				return arr;
+			}
+			var arr=[25,15,35,19,87,26,32,48];
+
+			console.log(maopao(arr));
+			document.getElementById("demo").innerHTML=maopao(arr);
+		</script> 
+		<p id="demo"></p>
+		<!--  -->
+		<script type="text/javascript">
+			function chaxu(arr)
+			{
+				var len=arr.length;
+				for(var i=0;i<len;i++)
+				{
+					var x=arr[i];
+				for(j=i-1;arr[j]>x;j--)
+				{
+					arr[j+1]=arr[j];
+				}
+
+				}
+				if(arr[j+1]!=x)
+				{
+					arr[j+1]=x;
+				}
+				return arr;	
+			}
+			var arr=[25,53,14,36,16,24];
+			consloe.log(chaxu(arr));
+			document.getElementById("demo1").innerHTML=chaxu(arr);
+		</script>
+		<p id="demo1"></p>
+	
+</body>
+</html>
